@@ -82,7 +82,7 @@ def inputHandlerFiling(txt):
         except ValueError:
             print("Please input a number")
             continue
-        if inputFiling > 3:
+        if inputFiling > 3 or inputFiling < 0:
             print("Invalid number")
         else:
             break
